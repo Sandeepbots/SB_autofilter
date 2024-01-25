@@ -41,7 +41,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('🌐 Subscribe YouTube Channel 💗', url=f'https://youtube.com/@KnowlageGyan')
+            InlineKeyboardButton('🌐 Subscribe YouTube Channel 💗', url=f'http://youtube.com/@KnowlageGyan')
             ],[
             InlineKeyboardButton('📞 Update Channel ♻️', url=f'https://t.me/SB_movies24')
             ],[
@@ -63,7 +63,7 @@ async def start(client, message):
             return
 
         buttons = [[
-            InlineKeyboardButton('🌐 Subscribe YouTube Channel 💗', url=f'https://youtube.com/@KnowlageGyan')
+            InlineKeyboardButton('🌐 Subscribe YouTube Channel 💗', url=f'http://youtube.com/@KnowlageGyan')
             ],[
             InlineKeyboardButton('📞 Update Channel ♻️', url=f'https://t.me/SB_movies24')
             ],[
